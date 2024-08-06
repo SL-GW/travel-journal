@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function NavBar() {
-  return <div className="NavBar">Hello</div>;
+  return <div className="NavBar">Travel Journal</div>;
 }
