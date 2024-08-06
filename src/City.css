@@ -1,5 +1,5 @@
 .City {
-  margin: 20px 0px 20px 0px;
+  margin: 30px 0px 30px 0px;
 }
 
 h1 {
@@ -9,11 +9,13 @@ h1 {
 h2 {
   font-size: 22px;
   font-weight: 400;
+  opacity: 0.8;
 }
 h4 {
-  font-size: 20px;
+  font-size: 25px;
   font-weight: 400;
-  opacity: 0.7;
+  opacity: 0.5;
+  margin-top: 10px;
 }
 
 img {

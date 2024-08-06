@@ -1,12 +1,17 @@
 import "./App.css";
 import NavBar from "./NavBar";
 import City from "./City";
+import Data from "./Data";
 
 function App() {
+  const cities = Data.map((item) => {
+    return <City Key={item.id} item={item} />;
+  });
+
   return (
     <div className="App">
       <NavBar />
-      <City />
+      <div className="city-list">{cities}</div>
     </div>
   );
 }
