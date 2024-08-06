@@ -1,0 +1,15 @@
+.NavBar {
+  background: #ea8a8a;
+  padding: 30px;
+}
+
+h3 {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.map {
+  display: block;
+  margin: 0 auto;
+}
