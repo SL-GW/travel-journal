@@ -2,6 +2,7 @@ import "./App.css";
 import NavBar from "./NavBar";
 import City from "./City";
 import Data from "./Data";
+import "./Reset.css";
 
 function App() {
   const cities = Data.map((item) => {
